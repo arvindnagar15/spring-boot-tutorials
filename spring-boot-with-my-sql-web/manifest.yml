@@ -1,0 +1,8 @@
+---
+applications:
+- name: spring-boot-with-my-sql-web_new
+  path: target/spring-boot-with-my-sql-web-0.0.1-SNAPSHOT.jar
+  domain: cfapps.io
+  instances: 1
+  command: null
+  services:  - mysql
